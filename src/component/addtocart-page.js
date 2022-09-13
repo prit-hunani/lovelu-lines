@@ -23,17 +23,15 @@ function Cartpage() {
               <div className="productlists bookimg_infoboxs mt-4">
                 <div className="productlists bookinginfo">
                   <div className="productlists time_line_butones">
-                    <div className="off-mainbody">
-                      <div className="productlists time_show col-8">
-                        BUY ONE GET ONE FREE - Buy a Botox product and get one
-                        for free!
-                      </div>
-                      <div className="price_number col-2">$344.00</div>
-                      <div>
-                        <Link to="/" className="buttons_sites_remove col-2">
-                          Remove
-                        </Link>
-                      </div>
+                    <div className="productlists time_show col-8">
+                      BUY ONE GET ONE FREE - Buy a Botox product and get one for
+                      free!
+                    </div>
+                    <div className="price_number col-2">$344.00</div>
+                    <div>
+                      <Link to="/" className="buttons_sites_remove col-2">
+                        Remove
+                      </Link>
                     </div>
                   </div>
                 </div>
