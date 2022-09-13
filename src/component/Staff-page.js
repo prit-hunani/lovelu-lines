@@ -1,44 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Mapbox from "./GoogleMap";
-import { FaMapMarkerAlt } from "react-icons/fa";
-import { IoTimeSharp } from "react-icons/io5";
-import { IoStar } from "react-icons/io5";
-import { TbWorld } from "react-icons/tb";
-import { IoMail } from "react-icons/io5";
-import { IoCall } from "react-icons/io5";
-import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import amberbaker from "../img/AMBER-BAKER.webp";
 import taylorhale from "../img/TAYLOR-HALE.webp";
-import { AiFillSafetyCertificate } from "react-icons/ai";
 import LocationHour from "./Location-hour";
-function Mailto({ email, subject, body, ...props }) {
-  return (
-    <a href={`mailto:${email}?subject=${subject || ""}&body=${body || ""}`}>
-      {props.children}
-    </a>
-  );
-}
-
-const responsive = {
-  superLargeDesktop: {
-    breakpoint: { max: 4000, min: 3000 },
-    items: 5,
-  },
-  desktop: {
-    breakpoint: { max: 3000, min: 1024 },
-    items: 1,
-  },
-  tablet: {
-    breakpoint: { max: 1024, min: 464 },
-    items: 2,
-  },
-  mobile: {
-    breakpoint: { max: 464, min: 0 },
-    items: 1,
-  },
-};
 
 function Staffpage() {
   return (
@@ -56,7 +21,7 @@ function Staffpage() {
           </div>
           <div className="col-8 only_winfo">
             <div className="productlists booking_info_right">
-              <h1 className="page-tittle">Our Team</h1>
+              <h1 className="">Our Team</h1>
               <div className="bookimg_infoboxs mt-4">
                 <div className="bookinginfo">
                   <div className="time_line_butone">
