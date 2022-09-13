@@ -38,7 +38,6 @@ a {
   background-color: #68c9cc !important;
 }  
 .site_sec_hadder {
-  height: 140px;
   display: flex;
   align-items: center;
   top: 0px;
@@ -151,7 +150,7 @@ a {
 button.buttons_sites_all.btn.btn-primary {
   background-color: #68C9CC;
   color: #fff;
-  padding: 2px 28px;
+  padding: 3px 39px;
   border-radius: 30px;
   font-size: 20px;
   font-weight: 600;
@@ -160,7 +159,7 @@ button.buttons_sites_all.btn.btn-primary {
 button.buttons_sites_all.btn.btn-primary:hover {
   background-color: #000000;
   color: #fff;
-  padding: 2px 28px;
+  padding: 3px 39px;
   border-radius: 30px;
   font-size: 20px;
   font-weight: 600;
@@ -265,6 +264,7 @@ a.login-btn:hover {
 
 .appiment_booking_leftside {
   padding: 0px 20px;
+  margin-top: 20px;
 }
 .map_icon_w_text {
   display: flex;
@@ -504,7 +504,7 @@ body.product-layout .site_header {
   padding: 40px;
 }
 div#login965 {
-  background-color: #E5E5E5;
+  background-color: #F9F9F9;
 }
 a.btn.btn-primary.login-btn {
   width: 100%;
@@ -556,7 +556,6 @@ a.btn.btn-outline-primary.login-btn:hover {
 }
 .modal-body {
   margin: auto;
-  text-align: center;
 }
 /* staff page */
 .avtar_d_name {
@@ -567,8 +566,13 @@ a.btn.btn-outline-primary.login-btn:hover {
 .time_shows {
   color: #757575;
   font-size: 18px;
-  padding: 11px 0px;
+  padding: 20px 0px;
 }
+
+.service_list {
+  padding: 20px 0;
+}
+
 /* Membership page */
 .plans_box h6, .plans_box  h5 {
   margin: 0;
@@ -645,9 +649,11 @@ button.btn.btn-light {
 }
 button.btn.btn-outline-light {
   border-radius: 24px;
+  padding: 5px 17px;
 }
 button.buy_now_btn.btn.btn-light {
   color: #68c9cc;
+  padding: 5px 17px;
 }
 /* Gift card page  */
 .gcard {
@@ -673,7 +679,7 @@ label.form-label {
 }
 .sumbmit-buttones button.btn.btn-primary {
   padding: 10px 0px;
-  width: 40%;
+  width: 46%;
   border-radius: 30px;
   background: #68C9CC;
   border-color: #68C9CC;
@@ -682,7 +688,7 @@ label.form-label {
 }
 .sumbmit-buttones button.btn.btn-primary:hover {
   padding: 10px 0px;
-  width: 40%;
+  width: 46%;
   border-radius: 30px;
   background: #000000;
   border-color: #000000;
@@ -1131,3 +1137,27 @@ div#otpnumber input {
   margin-bottom: 10px !important;
 }
 
+.page-tittle{
+  font-size: 32px;
+  color: #757575;
+}
+
+.off-txt{
+    color: #757575;
+    padding-bottom: 8px;
+}
+
+.off-subtxt{
+  padding-bottom: 5px;
+}
+
+.off-btn {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px 0;
+}
+.off-txt .modal-content {
+  color: #757575;
+  display: block;
+  padding-bottom: 8px;
+}
