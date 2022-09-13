@@ -21,7 +21,7 @@ function Staffpage() {
           </div>
           <div className="col-8 only_winfo">
             <div className="productlists booking_info_right">
-              <h1 className="">Our Team</h1>
+              <h1 className="page-tittle">Our Team</h1>
               <div className="bookimg_infoboxs mt-4">
                 <div className="bookinginfo">
                   <div className="time_line_butone">
