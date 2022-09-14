@@ -166,18 +166,22 @@ button.buttons_sites_all.btn.btn-primary:hover {
   border-color: #000000;
 }
 a.btn.btn-outline-primary, .choicsbtn {
-  width: 80%;
+  width: 100%;
   border: 2px solid;
   color: #68c9cc;
   font-weight: 500;
-  padding: 12px 70px;
   font-size: 20px;
-  border-radius: 3px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
 }
 a.btn.btn-outline-primary, .choicsbtn:hover {
   border: 2px solid;
   color: #ffffff;
+  width: 100%;
   font-weight: 500;
+  border: 2px solid;
+  border-radius: 5px; 
   background-color: #68c9cc !important;
   transition: 0.5s;
 }
@@ -714,19 +718,20 @@ label.form-label {
 }
 form.datepickerlist {
   display: flex;
+  column-gap: 13px;
   margin-left: 15px;
 }
 input#formGridEmail {
   display: flex;
-  flex-direction: row-reverse;
+
   gap: 10px;
 }
-input#formGridEmail::before {
+/* input#formGridEmail::before {
   content: "\203A";
   transform: rotate(90deg);
   position: absolute;
   font-size: 42px;
-}
+} */
 .services_page_last_bok .back_line {
   border-bottom: 2px solid #68c9cc;
   padding-bottom: 10px;
@@ -814,6 +819,11 @@ div#otpnumber span {
   border: 2px solid #68c9cc;
   padding: 4px 15px;
   border-radius: 10px;
+}
+
+.row.thrd_boxes .col:hover {
+ background-color: #68c9cc2d;
+ 
 }
 .row.thrd_boxes {
   gap: 12px;
@@ -998,7 +1008,9 @@ div#otpnumber input {
 div#otpnumber input {
   width: 80%;
   font-size: 34px;
+  border: solid 1px gray;
   text-align: center;
+  border-radius: 6px;
 }
 .recpach_key.col {
   display: flex;
@@ -1160,4 +1172,8 @@ div#otpnumber input {
   color: #757575;
   display: block;
   padding-bottom: 8px;
+}
+.tow_buttones .col-4{
+  display: flex;
+  flex-wrap: wrap;
 }
