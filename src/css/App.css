@@ -622,10 +622,14 @@ a.btn.btn-outline-primary.login-btn:hover {
 }
 /* Promotions page */
 .Promotions_box {
-  background-color: #68C9CC;
+  background-repeat: no-repeat;
+  background-size: 300px 100px;
+  background-image: url("../img/bg.png");
   border-radius: 10px;
   height: 220px;
+  background-size: cover;
 }
+
 .Promotions_box .col-8 {
   display: flex;
   flex-direction: column;
@@ -1177,3 +1181,6 @@ div#otpnumber input {
   display: flex;
   flex-wrap: wrap;
 }
+
+
+
